@@ -1,0 +1,84 @@
+/*Осн колір тексту #212121
+ 
+другий колір тексту #757575
+
+білий #FFFFFF
+
+акцент синій #2196F3
+
+фон перший #F5F5F5
+
+фон другий #F5F4FA
+
+*/
+:root{
+	--primary-text-color: #757575;
+	--title-text-color:#212121;
+	--accent-color:#2196F3;
+}
+ var(--title-text-color) 
+
+body{
+	background-color: #F5F5F5;
+	color:  var(--title-text-color) ;
+}
+
+.logo{
+	color: var(--accent-color) ;
+}
+.logo-span{
+	color: #000000;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	
+}
+ /* nav */
+.site-nav .link {
+	color: var(--title-text-color) ;	
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--accent-color) ;
+}
+	/* top-address */
+.top-address {
+	color: var(--primary-text-color);
+}
+ /* main */
+/* hero */
+.hero-title{
+	color: var(--title-text-color) ;
+}
+
+ /* section */
+.section-title{
+	color: var(--title-text-color)  ;
+}
+/* feature */
+.feature-list .title{
+	color:  var(--title-text-color) ;
+}
+
+
+
+
+button{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	color: #ffffff;
+	background-color: #188CE8;
+}
+button:hover,
+button:focus{
+	background-color: var(--accent-color) ;
+}
+button:active{
+	background-color: #188CE8;
+}
