@@ -24,26 +24,32 @@ body{
 	color:  var(--title-text-color) ;
 }
 
+/* logo */
+
 .logo{
 	color: var(--accent-color) ;
 }
 .logo-span{
 	color: #000000;
 }
+
 ul{
 	list-style: none;
 }
+
 a{
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
+
  /* nav */
 .site-nav .link {
 	color: var(--title-text-color) ;	
 }
-
 .site-nav .link:hover,
-.site-nav .link:focus {
+.top-address .tel:hover,
+.site-nav .link:focus,
+.top-address .tel:focus
+ {
 	color: var(--accent-color) ;
 }
 .site-nav .link.current{
@@ -53,27 +59,43 @@ a{
 .top-address a{
 	color: var(--primary-text-color);
 }
-.top-address .tel:hover,
-.top-address .tel:focus{
-	color: var(--accent-color);
-}
-
 .top-address .mail.current{
 	color: var(--accent-color);
 }
 
 
  /* main */
+
 /* hero */
+
 .hero-title{
 	color: var(--title-text-color) ;
 }
+/* button */
+
+button {
+	color: var(--primari-bg-color);
+	background-color: var(--default-color);
+}
+
+button:hover,
+button:focus {
+	background-color: var(--accent-color);
+}
+
+button:active {
+	background-color: var(--primari-bg-color);
+	color: var(--default-color);
+}
 
  /* section */
+
 .section-title{
 	color: var(--title-text-color)  ;
 }
+
 /* feature */
+
 .feature-list .title{
 	color:  var(--title-text-color) ;
 }
@@ -81,15 +103,3 @@ a{
 
 
 
-button{
-	color: var(--primari-bg-color);
-	background-color: var(--default-color);
-}
-button:hover,
-button:focus{
-	background-color: var(--accent-color) ;
-}
-button:active{
-	background-color: var(--primari-bg-color) ;
-	color: var(--default-color);
-}
