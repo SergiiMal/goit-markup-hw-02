@@ -41,14 +41,28 @@ a{
 .site-nav .link {
 	color: var(--title-text-color) ;	
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
 	color: var(--accent-color) ;
 }
+.site-nav .link.current{
+	color: var(--accent-color);
+}
 	/* top-address */
-.top-address {
+.top-address a{
 	color: var(--primary-text-color);
 }
+.top-address .tel:hover,
+.top-address .tel:focus{
+	color: var(--accent-color);
+}
+
+.top-address .mail.current{
+	color: var(--accent-color);
+}
+
+
  /* main */
 /* hero */
 .hero-title{
