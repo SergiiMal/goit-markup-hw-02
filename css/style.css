@@ -15,11 +15,12 @@
 	--primary-text-color: #757575;
 	--title-text-color:#212121;
 	--accent-color:#2196F3;
+	--default-color:#188CE8;
+	--primari-bg-color:#F5F5F5;
 }
- var(--title-text-color) 
-
+ 
 body{
-	background-color: #F5F5F5;
+	background-color: var(--primari-bg-color) ;
 	color:  var(--title-text-color) ;
 }
 
@@ -67,18 +68,14 @@ a{
 
 
 button{
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 30px;
-	color: #ffffff;
-	background-color: #188CE8;
+	color: var(--primari-bg-color);
+	background-color: var(--default-color);
 }
 button:hover,
 button:focus{
 	background-color: var(--accent-color) ;
 }
 button:active{
-	background-color: #188CE8;
+	background-color: var(--primari-bg-color) ;
+	color: var(--default-color);
 }
