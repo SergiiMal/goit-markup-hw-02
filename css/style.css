@@ -46,10 +46,10 @@ a{
 	color: var(--title-text-color) ;	
 }
 .site-nav .link:hover,
-.top-address .tel:hover,
 .site-nav .link:focus,
+.top-address .tel:hover,
 .top-address .tel:focus
- {
+{
 	color: var(--accent-color) ;
 }
 .site-nav .link.current{
@@ -86,13 +86,7 @@ button:focus {
 button:active {
 	background-color: var(--primari-bg-color);
 	color: var(--default-color);
-}
-
- /* section */
-
-.section-title{
-	color: var(--title-text-color)  ;
-}
+} 
 
 /* feature */
 
@@ -100,6 +94,42 @@ button:active {
 	color:  var(--title-text-color) ;
 }
 
+/* section */
 
+.section-title {
+	color: var(--title-text-color);
+}
+.feature-list p{
+	color: var(--primary-text-color);
+}
 
+.name {
+	color: var(--title-text-color);
+}
 
+.profession {
+	color: var(--primary-text-color);
+}
+.address .lower{
+	color: var(--primary-text-color) ;
+}
+.top-address .mail:hover,
+.top-address .mail:focus {
+	color: var(--accent-color);
+}
+	/* portfolio  */
+
+.items .item{
+	color: var(--title-text-color);
+}
+.gallery {}
+
+.gallery-list {}
+
+.gallery-title {
+	color: var(--title-text-color);
+}
+
+.gallery-text {
+	color: var(--primary-text-color) ;
+}
