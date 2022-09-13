@@ -11,140 +11,164 @@
 фон другий #F5F4FA
 
 */
-:root{
-	--primary-text-color: #757575;
-	--title-text-color:#212121;
-	--accent-color:#2196F3;
-	--default-color:#188CE8;
-	--primari-bg-color:#F5F5F5;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --default-color: #188ce8;
+  --primari-bg-color: #f5f5f5;
 }
- 
-body{
-	background-color: var(--primari-bg-color) ;
-	color:  var(--title-text-color) ;
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--primari-bg-color);
+  color: var(--title-text-color);
 }
 
 /* logo */
 
-.logo{
-	color: var(--accent-color) ;
+.logo {
+  font-family: "Raleway";
+  
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
-.logo-span{
-	color: #000000;
-}
-
-ul{
-	list-style: none;
-}
-
-a{
-	text-decoration: none;	
+.logo-span {
+  color: #000000;
 }
 
- /* nav */
+a {
+  text-decoration: none;
+}
+.site-nav,
+.top-address,
+.feature-list,
+.list .item,
+.section-list,
+.address,
+.filter,
+.gallery {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* nav */
 .site-nav .link {
-	color: var(--title-text-color) ;	
+  font-family: "Roboto";
+  
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
 .top-address .tel:hover,
-.top-address .tel:focus
-{
-	color: var(--accent-color) ;
+.top-address .tel:focus {
+  color: var(--accent-color);
 }
-.site-nav .link.current{
-	color: var(--accent-color);
+.site-nav .link.current {
+  color: var(--accent-color);
 }
-	/* top-address */
-.top-address a{
-	color: var(--primary-text-color);
+/* top-address */
+.top-address a {
+  color: var(--primary-text-color);
 }
-.top-address .mail.current{
-	color: var(--accent-color);
+.top-address .mail.current {
+  color: var(--accent-color);
+}
+.site-nav,
+.top-address {
+  cursor: pointer;
 }
 
-
- /* main */
+/* main */
 
 /* hero */
 
-.hero-title{
-	color: var(--title-text-color) ;
+.hero-title {
+  color: var(--title-text-color);
 }
 /* button */
 
 .order {
-	color: var(--primari-bg-color);
-	background-color: var(--default-color);
+  color: var(--primari-bg-color);
+  background-color: var(--default-color);
 }
 
 .order:hover,
 .order:focus {
-	background-color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .order:active {
-	background-color: var(--primari-bg-color);
-	color: var(--default-color);
-} 
+  background-color: var(--primari-bg-color);
+  color: var(--default-color);
+}
 
 /* feature */
 
-.feature-list .title{
-	color:  var(--title-text-color) ;
+.feature-list .title {
+  color: var(--title-text-color);
 }
 
 /* section */
 
 .section-title {
-	color: var(--title-text-color);
+  color: var(--title-text-color);
 }
-.feature-list p{
-	color: var(--primary-text-color);
+.feature-list p {
+  color: var(--primary-text-color);
 }
 
 .name {
-	color: var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 .profession {
-	color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
-.address .lower{
-	color: var(--primary-text-color) ;
+.address .lower {
+  color: var(--primary-text-color);
 }
 .top-address .mail:hover,
 .top-address .mail:focus {
-	color: var(--accent-color);
+  color: var(--accent-color);
 }
-	/* portfolio  */
+/* portfolio  */
 
-	/* filter */
+/* filter */
 
-.filter .item{
-	background-color: #ffffff;
-	color: var(--title-text-color);
+.filter .item {
+  background-color: #ffffff;
+  color: var(--title-text-color);
 }
 .filter .item.current {
-	background-color: var(--accent-color);
-	color: #ffffff;
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
 
 .filter .item:hover,
 .filter .item:focus {
-	background-color: var(--accent-color);
-	color: var(--primari-bg-color);
+  background-color: var(--accent-color);
+  color: var(--primari-bg-color);
 }
 
 /* gallery */
 
-.gallery {}
+.gallery {
+}
 
-.gallery-list {}
+.gallery-list {
+}
 
 .gallery-title {
-	color: var(--title-text-color);
+  color: var(--title-text-color);
 }
 .gallery-text {
-	color: var(--primary-text-color) ;
+  color: var(--primary-text-color);
 }
