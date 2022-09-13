@@ -73,17 +73,17 @@ a{
 }
 /* button */
 
-button {
+.order {
 	color: var(--primari-bg-color);
 	background-color: var(--default-color);
 }
 
-button:hover,
-button:focus {
+.order:hover,
+.order:focus {
 	background-color: var(--accent-color);
 }
 
-button:active {
+.order:active {
 	background-color: var(--primari-bg-color);
 	color: var(--default-color);
 } 
@@ -119,9 +119,25 @@ button:active {
 }
 	/* portfolio  */
 
-.items .item{
+	/* filter */
+
+.filter .item{
+	background-color: #ffffff;
 	color: var(--title-text-color);
 }
+.filter .item.current {
+	background-color: var(--accent-color);
+	color: #ffffff;
+}
+
+.filter .item:hover,
+.filter .item:focus {
+	background-color: var(--accent-color);
+	color: var(--primari-bg-color);
+}
+
+/* gallery */
+
 .gallery {}
 
 .gallery-list {}
@@ -129,7 +145,6 @@ button:active {
 .gallery-title {
 	color: var(--title-text-color);
 }
-
 .gallery-text {
 	color: var(--primary-text-color) ;
 }
