@@ -20,7 +20,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;  
   background-color: var(--primari-bg-color);
   color: var(--title-text-color);
 }
@@ -28,9 +28,7 @@ body {
 /* logo */
 
 .logo {
-  font-family: "Raleway";
-  
-  font-weight: 700;
+  font-family: "Raleway";  
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -39,15 +37,15 @@ body {
 .logo-span {
   color: #000000;
 }
-
-a {
-  text-decoration: none;
-}
+.logo,
 .site-nav,
+.site-nav .link,
 .top-address,
-.feature-list,
+.top-address .link, 
+.feature .list,
 .list .item,
-.section-list,
+.section-command .list,
+.section-command .card,
 .address,
 .filter,
 .gallery {
@@ -56,29 +54,26 @@ a {
 }
 
 /* nav */
-.site-nav .link {
-  font-family: "Roboto";
-  
+.site-nav .link {  
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);
-}
-.site-nav .link:hover,
-.site-nav .link:focus,
-.top-address .tel:hover,
-.top-address .tel:focus {
-  color: var(--accent-color);
+  color: var(--title-text-color); 
 }
 .site-nav .link.current {
   color: var(--accent-color);
 }
-/* top-address */
-.top-address a {
-  color: var(--primary-text-color);
+.site-nav .link:hover,
+.site-nav .link:focus,
+.top-address .link:hover,
+.top-address .link:focus{
+  color: var(--accent-color);
 }
-.top-address .mail.current {
+
+/* top-address */
+
+.top-address .link.current {
   color: var(--accent-color);
 }
 .site-nav,
@@ -91,20 +86,29 @@ a {
 /* hero */
 
 .hero-title {
-  color: var(--title-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;  
 }
 /* button */
 
 .order {
-  color: var(--primari-bg-color);
-  background-color: var(--default-color);
+    font-family: 'Roboto';  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;        
+    text-align: center;
+    letter-spacing: 0.06em; 
+    color: var(--primari-bg-color);
+    background-color: var(--default-color);
 }
-
 .order:hover,
 .order:focus {
   background-color: var(--accent-color);
 }
-
 .order:active {
   background-color: var(--primari-bg-color);
   color: var(--default-color);
@@ -112,33 +116,75 @@ a {
 
 /* feature */
 
-.feature-list .title {
-  color: var(--title-text-color);
+
+.feature .title {  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;  
+}
+.feature .text{  
+    font-size: 14px;
+    line-height: 1.71;  
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 
-/* section */
+/* section works */
 
 .section-title {
-  color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
-.feature-list p {
+ 
+/* section-command */
+
+.section-command .title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.section-command .name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;     
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.section-command .profession{
+    font-size: 16px;
+    line-height: 1.18;     
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+ 
+/* address */
+
+.address .text{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;  
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.address .link{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;  
+    letter-spacing: 0.03em;
+}
+.address .text, 
+.address .link {
+  text-decoration: none;
   color: var(--primary-text-color);
 }
 
-.name {
-  color: var(--title-text-color);
-}
-
-.profession {
-  color: var(--primary-text-color);
-}
-.address .lower {
-  color: var(--primary-text-color);
-}
-.top-address .mail:hover,
-.top-address .mail:focus {
-  color: var(--accent-color);
-}
 /* portfolio  */
 
 /* filter */
