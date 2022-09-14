@@ -27,24 +27,6 @@ body {
   color: var(--title-text-color);
 }
 
-/* .link,
-.site-nav,
-.site-nav .link,
-.top-address,
-.top-address .link,
-.feature .list,
-.list .item,
-.command .list,
-.command .link,
-.address,
-.filter,
-.gallery,
-.gallery 
-.link {
-  list-style: none;
-  text-decoration: none;
-} */
-
 /* logo */
 
 .logo-link {
