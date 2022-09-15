@@ -43,6 +43,9 @@ body {
 .logo-span {
   color: #000000;
 }
+.address-footer .logo-span{
+  color: #FFFFFF;
+}
 
 /* nav */
 .site-nav,
@@ -194,17 +197,19 @@ body {
   background: #2F303A;
 }
 
-.address .text {
+.address .item-text{
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   list-style: none;
-
+}
+.address .item-text .link{
   color: #FFFFFF;
 }
-.address .link {
+
+.address .link{
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
